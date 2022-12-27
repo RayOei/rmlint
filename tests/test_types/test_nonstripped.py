@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # encoding: utf-8
-
+from tests.utils import *
 import os
 
 from nose import with_setup
@@ -29,8 +29,7 @@ def create_binary(path, stripped=False):
     subprocess.run(command, input=SOURCE, shell=True, universal_newlines=True, check=True)
 
 
-@with_setup(usual_setup_func, usual_teardown_func)
-def test_negative():
+def test_negative(usual_setup_usual_teardown):
     if has_feature('nonstripped') is False:
         return
 
@@ -42,8 +41,7 @@ def test_negative():
     assert len(data) == 0
 
 
-@with_setup(usual_setup_func, usual_teardown_func)
-def test_positive():
+def test_positive(usual_setup_usual_teardown):
     if has_feature('nonstripped') is False:
         return
 
