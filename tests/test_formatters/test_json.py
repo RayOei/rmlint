@@ -2,7 +2,8 @@
 from tests.utils import *
 
 
-def test_simple(usual_setup_usual_teardown):
+@pytest.mark.usefixtures('usual_setup_usual_teardown')
+def test_simple():
     full_path_a = create_file('x', '\t\r\"\b\f\\')
     full_path_b = create_file('x', '\"\t\n2134124')
     head, *data, footer = run_rmlint('-S a')
