@@ -32,6 +32,6 @@ jobs:
           echo "the answer is $SKIP_CHANGES
 
       - name: "Test it"
-        if: ! ${{ SKIP_CHANGES == 'false' }}
+        if: ! ${{ env.SKIP_CHANGES == 'false' }}
         run: |
           echo "RUNNING IT... "
