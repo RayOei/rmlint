@@ -2,7 +2,8 @@
 from tests.utils import *
 
 
-def test_just_call_it(usual_setup_usual_teardown):
+@pytest.mark.usefixtures('usual_setup_usual_teardown')
+def test_just_call_it():
     create_file('1234', 'a')
     create_file('1234', 'b')
 
