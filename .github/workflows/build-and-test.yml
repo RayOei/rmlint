@@ -29,7 +29,7 @@ jobs:
           fi
       - name: "Should we test"
         run:
-          echo "the answer is $env.SKIP_CHANGES"
+          echo "the answer is $SKIP_CHANGES"
 
       - name: "Test it"
         if: ! ${{ env.SKIP_CHANGES == 'false' }}
