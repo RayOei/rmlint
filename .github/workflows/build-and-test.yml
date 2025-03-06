@@ -27,7 +27,10 @@ jobs:
             echo "SKIP_CHANGES = false" >> "$GITHUB_ENV"
             echo "SKIP_CHANGES = false"
           fi
-  
+      - name: "Should we test"
+        run:
+          echo "the answer is ${{ env.SKIP_CHANGES }}"
+
       - name: "Prepare build environment"
         run: |
           sudo apt-get update
@@ -45,8 +48,8 @@ jobs:
           scons VERBOSE=1 DEBUG=1 O=release
 
       - name: "Prepare test environment"
-        # TODO Ignore linter warning. See https://github.com/github/vscode-github-actions/issues/222
-        if: ${{ env.SKIP_CHANGES == 'false' }}
+        # TODO Ignore linter warning. See https://github.com/github/vscode-github-actions/issues/222        
+        if: ${{ SKIP_CHANGES == 'false' }}
         # The test suite is seriously disk-intensive. Given that linux
         #  instances hosted in GitHub have 16G of RAM available we will
         #  use it to speed up the run.
@@ -55,6 +58,6 @@ jobs:
           sudo mount -o size=12G,nr_inodes=0 -t tmpfs tmpfs "${RM_TS_DIR}"
 
       - name: "Test it"
-        if: ${{ env.SKIP_CHANGES == 'false' }}
+        if: ${{ SKIP_CHANGES == 'false' }}
         run: |
           RM_TS_PRINT_CMD=1 RM_TS_PEDANTIC=0 python -m pytest -s -v
