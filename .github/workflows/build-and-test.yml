@@ -22,9 +22,10 @@ jobs:
         # TODO also include skippin
         shell: bash
         run: |
-          echo "Base: $GITHUB_BASE_REF"
-          echo "Base: $GITHUB_REF"
-          echo "Head: $GITHUB_SHA"
+          echo "BASE: $GITHUB_BASE_REF"
+          echo "REF: $GITHUB_REF"
+          echo "MERGECOMMIT: $GITHUB_SHA"
+          echo "HEAD: $github.head_ref"
           if git diff --exit-code --name-only $GITHUB_BASE_REF...$GITHUB_SHA ':!.gitignore' ':!docs' ':!*.md' ':!*.txt' ':!*.yml'; then
             echo "RUN_TEST=false" >> $GITHUB_ENV
             echo "RUN_TEST = false"
