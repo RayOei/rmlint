@@ -23,7 +23,7 @@ jobs:
         run: |
           echo "Base: $GITHUB_BASE_REF"
           echo "Head: $GITHUB_HEAD_REF"
-          if git diff --exit-code --name-only origin/$GITHUB_BASE_REF HEAD ':!.gitignore' ':!docs' ':!*.md' ':!*.txt' ':!*.yml'; then
+          if git diff --exit-code --name-only origin/$GITHUB_BASE_REF...$GITHUB_SHA ':!.gitignore' ':!docs' ':!*.md' ':!*.txt' ':!*.yml'; then
             echo "RUN_TEST=false" >> $GITHUB_ENV
             echo "RUN_TEST = false"
           else
