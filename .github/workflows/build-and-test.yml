@@ -25,7 +25,8 @@ jobs:
           echo "BASE: $GITHUB_BASE_REF"
           echo "REF: $GITHUB_REF"
           echo "MERGECOMMIT: $GITHUB_SHA"
-          echo "HEAD: $github.head_ref"
+          echo "HEAD1: $GITHUB.HEAD_REF"
+          echo "HEAD2: $HEAD_REF"
           if git diff --exit-code --name-only $GITHUB_BASE_REF...$GITHUB_SHA ':!.gitignore' ':!docs' ':!*.md' ':!*.txt' ':!*.yml'; then
             echo "RUN_TEST=false" >> $GITHUB_ENV
             echo "RUN_TEST = false"
