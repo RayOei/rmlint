@@ -8,8 +8,8 @@ def csv_string_to_data(csv_dump):
     data = list(csv.reader(csv_dump.splitlines()))
     return data[1:]
 
-
-def test_simple(usual_setup_usual_teardown):
+@pytest.mark.usefixtures('usual_setup_usual_teardown')
+def test_simple():
     create_file('1234', 'a')
     create_file('1234', 'b')
     create_file('1234', 'stupid\'file,name')

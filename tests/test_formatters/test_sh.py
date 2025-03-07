@@ -19,7 +19,8 @@ def filter_part_of_directory(data):
     return [e for e in data if e['type'] != 'part_of_directory']
 
 
-def test_basic(usual_setup_usual_teardown, shell):
+@pytest.mark.usefixtures('usual_setup_usual_teardown')
+def test_basic(shell):
     create_file('xxx', 'a')
     create_file('xxx', 'b')
 
