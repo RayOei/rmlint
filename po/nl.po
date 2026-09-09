@@ -1,0 +1,1232 @@
+# Dutch translations for rmlint package.
+# Copyright (C) 2026 THE rmlint'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the rmlint package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: rmlint 2.11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-08 22:54+0200\n"
+"PO-Revision-Date: 2026-08-28 00:00+0000\n"
+"Last-Translator: Ray Oei\n"
+"Language-Team: none\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/rmlint.c
+#, c-format
+msgid "Aborting due to a fatal error. (signal received: %s)\n"
+msgstr "Een fatale fout is opgetreden. (Signaal ontvangen: %s)\n"
+
+#: src/rmlint.c
+msgid "Please file a bug report (See rmlint -h)\n"
+msgstr "Rapporteer een probeem (zie rmlint -h)\n"
+
+#: lib/formats/pretty.c
+msgid "Bad symlink(s)"
+msgstr "Ongeldige symlink(s)"
+
+#: lib/formats/pretty.c
+msgid "Empty dir(s)"
+msgstr "Lege map(pen)"
+
+#: lib/formats/pretty.c
+msgid "Non stripped binarie(s)"
+msgstr "Binaire bestanden met debug symbolen"
+
+#: lib/formats/pretty.c
+msgid "Bad UID(s)"
+msgstr "Ongeldige UID(s)"
+
+#: lib/formats/pretty.c
+msgid "Bad GID(s)"
+msgstr "Ongeldige GID(s)"
+
+#: lib/formats/pretty.c
+msgid "Bad UID and GID(s)"
+msgstr "Ongeldige UID en GID(s)"
+
+#: lib/formats/pretty.c
+msgid "Empty file(s)"
+msgstr "Lege bestanden"
+
+#: lib/formats/pretty.c
+msgid "Duplicate candidates(s)"
+msgstr "Dubbele kandidaten"
+
+#: lib/formats/pretty.c
+msgid "Duplicate dir candidate(s)"
+msgstr "Dubbele map(pen) "
+
+#: lib/formats/pretty.c
+msgid "Duplicate(s)"
+msgstr "Duplicaat(en)"
+
+#: lib/formats/pretty.c
+msgid "Duplicate Directorie(s)"
+msgstr "Duplicate map(pen)"
+
+#: lib/formats/progressbar.c
+msgid "reduces files to"
+msgstr "verkleind bestanden tot"
+
+#: lib/formats/progressbar.c
+msgid "Traversing"
+msgstr "Doorkruisen"
+
+#: lib/formats/progressbar.c
+msgid "usable files"
+msgstr "bruikbare bestanden"
+
+#: lib/formats/progressbar.c
+msgid "ignored files / folders"
+msgstr "genegeerde bestanden / mappen"
+
+#: lib/formats/progressbar.c
+msgid "Preprocessing"
+msgstr "Voorbereiden"
+
+#: lib/formats/progressbar.c
+msgid "found"
+msgstr "gevonden"
+
+#: lib/formats/progressbar.c
+msgid "other lint"
+msgstr "andere 'lint'"
+
+#: lib/formats/progressbar.c
+msgid "Matching"
+msgstr "Gelijk"
+
+#: lib/formats/progressbar.c
+msgid "dupes of"
+msgstr "dubbele van"
+
+#: lib/formats/progressbar.c
+msgid "originals"
+msgstr "originelen"
+
+#: lib/formats/progressbar.c
+msgid "to scan in"
+msgstr "te zoeken in"
+
+#: lib/formats/progressbar.c
+msgid "files"
+msgstr "bestanden"
+
+#: lib/formats/progressbar.c
+msgid "Merging files into directories (stand by...)"
+msgstr "Samenvoegen van bestanden in mappen (moment geduld ajb)"
+
+#: lib/formats/stats.c
+#, c-format
+msgid "No shred stats.\n"
+msgstr "Geen versnipperingsstatistieken\n"
+
+#: lib/formats/stats.c
+#, c-format
+msgid ""
+"%sDuplicate finding stats (includes hardlinks):%s\n"
+"\n"
+msgstr ""
+"%sDuplicaten gevonden statistieken (inclusief hardlinks):%s\n"
+"\n"
+
+#: lib/formats/stats.c
+#, c-format
+msgid "%s%15s%s bytes of originals\n"
+msgstr "%s%15s%s bytes met originelen\n"
+
+#: lib/formats/stats.c
+#, c-format
+msgid "%s%15s%s bytes of duplicates\n"
+msgstr "%s%15s%s bytes met duplicaten\n"
+
+#: lib/formats/stats.c
+#, c-format
+msgid "%s%15s%s bytes of non-duplicates\n"
+msgstr "%s%15s%s bytes met niet-duplicaten\n"
+
+#: lib/formats/stats.c
+#, c-format
+msgid "%s%15s%s bytes of files data actually read\n"
+msgstr "%s%15s%s bytes met bestanden gelezen\n"
+
+#: lib/formats/stats.c
+#, c-format
+msgid "%s%15d%s Files in total\n"
+msgstr "%s%15d%s bytes voor totaal\n"
+
+#: lib/formats/stats.c
+#, c-format
+msgid "%s%15ld%s Duplicate files\n"
+msgstr "%s%15ld%s bytes met dubbele bestanden\n"
+
+#: lib/formats/stats.c
+#, c-format
+msgid "%s%15ld%s Groups in total\n"
+msgstr "%s%15ld%s Groepen in totaal\n"
+
+#: lib/formats/stats.c
+#, c-format
+msgid "%s%15ld%s Other lint items\n"
+msgstr "%s%15ld%s Andere lint items\n"
+
+#: lib/formats/stats.c
+#, c-format
+msgid "%s%15s%s of time spent scanning\n"
+msgstr "%s%15s%s van de tijd besteed aan zoeken\n"
+
+#: lib/formats/stats.c
+#, c-format
+msgid "%s%15s%s Algorithm efficiency on total files basis\n"
+msgstr "%s%15s%s Algoritme efficiëntie voor het totaal aan basis bestanden\n"
+
+#: lib/formats/stats.c
+#, c-format
+msgid "%s%15s%s Algorithm efficiency on duplicate file basis\n"
+msgstr "%s%15s%s Algoritme efficiëntie voor het totaal aan basis dubbele bestanden\n"
+
+#: lib/formats/summary.c
+#, c-format
+msgid " file(s) after investigation, nothing to search through.\n"
+msgstr " bestand(en) na onderzoek; niets om te doorzoeken.\n"
+
+#: lib/formats/summary.c
+#, c-format
+msgid "Early shutdown, probably not all lint was found.\n"
+msgstr "Vroegtijdige stoppen; waarschijnlijk is niet alle 'lint' gevonden.\n"
+
+#: lib/formats/summary.c
+#, fuzzy
+msgid "Note: Please use the saved script below for removal, not the above output.\n"
+msgstr ""
+"Opmerking: Gebruik voor de verwijdering het hieronder opgeslagen script, niet de bovenstaande "
+"uitvoer."
+
+#: lib/formats/summary.c
+#, c-format
+msgid "In total %s files, whereof %s are duplicates in %s groups.\n"
+msgstr "In totaal %s bestanden, waarvan %s duplicaten in %s groepen.\n"
+
+#: lib/formats/summary.c
+#, c-format
+msgid "This equals %s%s%s of duplicates which could be removed.\n"
+msgstr "Dit komt overeen met %s%s%s duplicaten die verwijderd zouden kunnen worden.\n"
+
+#: lib/formats/summary.c
+#, c-format
+msgid "other suspicious item(s) found, which may vary in size.\n"
+msgstr "andere verdachte bestanden aangetroffen, die in grootte kunnen variëren."
+
+#: lib/formats/summary.c
+#, c-format
+msgid "This run was a replay from a previous run. No I/O done!\n"
+msgstr "Deze run was een herhaling van een eerdere run. Er heeft geen I/O plaatsgevonden!\n"
+
+#: lib/formats/summary.c
+#, c-format
+msgid "Scanning took in total %s%s%s.\n"
+msgstr "Het scannen duurde in totaal %s%s%s."
+
+#: lib/formats/summary.c
+#, c-format
+msgid "Wrote a %s%s%s file to: %s%s%s\n"
+msgstr "Een %s%s%s bestand naar: %s%s%s geschreven\n"
+
+#: lib/formats/sh.c
+#, c-format
+msgid "%s is an invalid handler."
+msgstr "%s is een ongeldige handler."
+
+#: lib/logger.h
+msgid "ERROR"
+msgstr "FOUT"
+
+#: lib/logger.h
+msgid "WARNING"
+msgstr "WAARSCHUWING"
+
+#: lib/logger.h
+msgid "INFO"
+msgstr "INFORMATIE"
+
+#: lib/logger.h
+msgid "DEBUG"
+msgstr "DEBUG"
+
+#: lib/hasher.c
+#, c-format
+msgid "Something went wrong reading %s; expected %lli bytes, got %lli; ignoring"
+msgstr ""
+"Er is iets misgegaan bij het lezen van %s; %lli bytes verwacht, %lli ontvangen; wordt genegeerd."
+
+#: lib/rank.c
+msgid "Pattern has to start with `<`"
+msgstr "Het patroon moet beginnen met `<`"
+
+#: lib/rank.c
+#, c-format
+msgid "`<` or `>` imbalance: %d"
+msgstr "Uit balans in `<` of `>`: %d"
+
+#: lib/rank.c
+msgid "empty pattern"
+msgstr "leeg patroon"
+
+#: lib/rank.c
+msgid "no pattern given in <> after 'r' or 'x'"
+msgstr "geen patroon opgegeven tussen <> na 'r' of 'x'"
+
+#: lib/rank.c
+#, c-format
+msgid "Cannot add more than %lu regex patterns."
+msgstr "Er kunnen niet meer dan %lu regex-patronen worden toegevoegd."
+
+#: lib/rank.c
+msgid "Error while parsing sortcriteria patterns: "
+msgstr "Fout bij het parseren van patronen voor sorteercriteria: "
+
+#: lib/replay.c
+msgid "lint type of node not recognised"
+msgstr "Lint-knooppunttype niet herkend"
+
+#: lib/replay.c
+#, c-format
+msgid "modification time of `%s` changed. Ignoring."
+msgstr "Wijzigingstijd van `%s` is veranderd. Wordt genegeerd."
+
+#: lib/replay.c
+#, c-format
+msgid "Loading json-results `%s'"
+msgstr "JSON-resultaten '%s' laden"
+
+#: lib/replay.c
+msgid "No valid json cache (no array in /)"
+msgstr "Geen geldige JSON-cache (geen array in /)"
+
+#: lib/replay.c
+msgid "No valid .json files given, aborting."
+msgstr "Geen geldige .json-bestanden opgegeven; actie afgebroken."
+
+#: lib/session.c
+msgid "Received interrupt; stopping..."
+msgstr "Onderbrekingssignaal ontvangen; stoppen..."
+
+#: lib/session.c
+msgid "Received second interrupt; stopping hard."
+msgstr "Tweede interruptie ontvangen; harde stop."
+
+#: lib/reflink.c
+msgid "Check extended attributes to see if the file is already deduplicated"
+msgstr "Controleer de uitgebreide kenmerken om te zien of het bestand al is gededupliceerd."
+
+#: lib/reflink.c
+msgid "Even dedupe read-only snapshots (needs root)"
+msgstr "Zelfs deduplicatie van alleen-lezen snapshots (vereist root)"
+
+#: lib/reflink.c lib/cmdline.c
+msgid "Follow symlinks"
+msgstr "Symbolische links volgen"
+
+#: lib/reflink.c
+msgid "Try to dedupe files with inline extents"
+msgstr "Probeer bestanden met inline-extents te ontdubbelen."
+
+#: lib/reflink.c
+msgid "Don't use fiemap to check whether files are already reflinked"
+msgstr "Gebruik fiemap niet om te controleren of bestanden al via reflink zijn gekoppeld."
+
+#: lib/reflink.c lib/cmdline.c
+msgid "Be more verbose (-vv for much more)"
+msgstr "Uitgebreidere uitvoer (-vv voor veel meer)"
+
+#: lib/reflink.c lib/cmdline.c
+msgid "Be less verbose (-VV for much less)"
+msgstr "Wees minder uitvoerig (-VV voor veel minder)"
+
+#: lib/reflink.c lib/cmdline.c
+msgid "Dedupe matching extents from source to dest (if filesystem supports)"
+msgstr ""
+"Dubbele overlappende gegevensblokken van bron naar doel ontdubbelen (indien ondersteund door het "
+"bestandssysteem)"
+
+#: lib/reflink.c
+#, c-format
+msgid ""
+"Error parsing command line:\n"
+"%s"
+msgstr ""
+"Fout bij het parseren van de opdrachtregel:\n"
+"%s"
+
+#: lib/reflink.c
+msgid ""
+"must have exactly two files\n"
+"\n"
+msgstr ""
+"moet precies twee bestanden bevatten\n"
+"\n"
+
+#: lib/reflink.c
+msgid "dedupe: failed to open source file"
+msgstr "dedupe: openen van bronbestand mislukt"
+
+#: lib/reflink.c
+msgid "dedupe: failed to create temp file"
+msgstr "dedupe: kon geen tijdelijk bestand aanmaken"
+
+#: lib/reflink.c
+#, c-format
+msgid "dedupe: error %i: failed to open dest file.%s"
+msgstr "dedupe: fout %i: openen van doelbestand mislukt.%s"
+
+#: lib/reflink.c
+msgid ""
+"\n"
+"\t(if target is a read-only snapshot then -r option is required)"
+msgstr ""
+"\n"
+"\t(als het doel een alleen-lezen momentopname is, is de optie -r vereist)"
+
+#: lib/reflink.c
+#, c-format
+msgid "dedupe: error %s create clone via FICLONE; original hardlink left unchanged"
+msgstr ""
+"dedupe: fout %s bij het maken van een kloon via FICLONE; oorspronkelijke harde link ongewijzigd "
+"gelaten"
+
+#: lib/reflink.c
+msgid "dedupe: Can't create clone of hardlink because FICLONE not defined on your system"
+msgstr ""
+"dedupe: Kan geen kloon van een harde link maken omdat FICLONE niet is gedefinieerd op uw systeem"
+
+#: lib/reflink.c
+#, c-format
+msgid "%s returned error: (%d)"
+msgstr "%s gaf een foutmelding: (%d)"
+
+#: lib/reflink.c
+msgid "Files don't match - not deduped"
+msgstr "Bestanden komen niet overeen – niet ontdubbeld"
+
+#: lib/reflink.c
+msgid "Only first %"
+msgstr "Alleen de eerste %"
+
+#: lib/reflink.c
+msgid "rmlint was not compiled with file cloning support."
+msgstr "rmlint is niet gecompileerd met ondersteuning voor kopiëren."
+
+#: lib/reflink.c lib/cmdline.c
+msgid "Test if two files are reflinks (share same data extents)"
+msgstr "Test of twee bestanden reflink-bestanden zijn (dezelfde data-extents delen)"
+
+#: lib/reflink.c
+msgid "Returns 0 if the files are reflinks."
+msgstr "Geeft 0 terug als de bestanden reflink-bestanden zijn."
+
+#: lib/reflink.c
+msgid "Other return codes:"
+msgstr "Overige retourcodes:"
+
+#: lib/reflink.c
+msgid "must have exactly two files"
+msgstr "moet precies twee bestanden bevatten"
+
+#: lib/reflink.c
+msgid "Cannot test for reflinks because rmlint was compiled without fiemap support"
+msgstr "Kan niet op reflinks controleren, omdat rmlint is gecompileerd zonder fiemap-ondersteuning"
+
+#: lib/reflink.c
+#, c-format
+msgid "`%s`: No such file or directory"
+msgstr "`%s`: Bestand of map bestaat niet"
+
+#: lib/treemerge.c
+msgid "Failed to allocate memory. Out of memory?"
+msgstr "Kon geen geheugen toewijzen. Geheugen tekort?"
+
+#: lib/formats.c
+#, c-format
+msgid "Old result `%s` already exists."
+msgstr "Oud resultaat `%s` bestaat al."
+
+#: lib/formats.c
+#, c-format
+msgid "Moving old file to `%s`. Leave out --backup to disable this."
+msgstr "Oud bestand wordt verplaatst naar `%s`. Laat `--backup` weg om dit uit te schakelen."
+
+#: lib/formats.c
+msgid "failed to rename old result file"
+msgstr "Het hernoemen van het oude resultatenbestand is mislukt"
+
+#: lib/formats.c
+#, c-format
+msgid "No such new_handler with this name: %s"
+msgstr "Geen new_handler met deze naam: %s"
+
+#: lib/formats.c
+#, c-format
+msgid "Unable to open file for writing: %s"
+msgstr "Kan bestand niet openen om naar te schrijven: %s"
+
+#: lib/traverse.c
+#, c-format
+msgid "filesystem loop detected at %s (skipping)"
+msgstr "Loop in bestandssysteem gedetecteerd bij %s (wordt overgeslagen)"
+
+#: lib/traverse.c
+#, c-format
+msgid "cannot read directory %s: %s"
+msgstr "kan map %s niet lezen: %s"
+
+#: lib/traverse.c
+#, c-format
+msgid "error %d in fts_read for %s (skipping)"
+msgstr "fout %d in fts_read voor %s (overslaan)"
+
+#: lib/traverse.c
+#, c-format
+msgid "Unknown fts_info flag %d for file %s"
+msgstr "Onbekende fts_info-vlag %d voor bestand %s"
+
+#: lib/traverse.c
+#, c-format
+msgid "Added big file %s"
+msgstr "Groot bestand %s toegevoegd"
+
+#: lib/traverse.c
+#, c-format
+msgid "cannot stat file %s (skipping)"
+msgstr "kan bestand %s niet opvragen (wordt overgeslagen)"
+
+#: lib/traverse.c
+#, c-format
+msgid "'%s': fts_read failed on %s"
+msgstr "'%s': fts_read mislukt op %s"
+
+#: lib/traverse.c
+#, c-format
+msgid "Unable to process path %s"
+msgstr "Kan pad %s niet verwerken"
+
+#: lib/cmdline.c
+#, c-format
+msgid "compiled with:"
+msgstr "samengesteld met:"
+
+#: lib/cmdline.c
+#, fuzzy
+msgid ""
+"\n"
+"\n"
+"rmlint was written by Christopher <sahib> Pahl and Daniel <SeeSpotRun> Thomas.\n"
+"The code at https://github.com/sahib/rmlint is licensed under the terms of the GPLv3.\n"
+msgstr ""
+"\n"
+"\n"
+"rmlint is geschreven door Christopher <sahib> Pahl, Daniel <SeeSpotRun> Thomas, Cebtenzzre en "
+"Vassili Tchersky <vassilit>.\n"
+"De code op https://github.com/sahib/rmlint valt onder de licentievoorwaarden van de GPLv3.\n"
+
+#: lib/cmdline.c
+msgid "You seem to have no manpage for rmlint."
+msgstr "Je lijkt geen man-pagina voor rmlint te hebben."
+
+#: lib/cmdline.c
+#, fuzzy
+msgid "Please run rmlint --help to show the regular help."
+msgstr "Voer `rmlint --help` uit om de standaardhulp weer te geven."
+
+#: lib/cmdline.c
+msgid "Alternatively, visit https://rmlint.rtfd.org for the online documentation"
+msgstr "Je kunt ook https://rmlint.rtfd.org bezoeken voor de online documentatie"
+
+#: lib/cmdline.c
+msgid "Max is smaller than min"
+msgstr "Max is kleiner dan min."
+
+#: lib/cmdline.c
+msgid "cannot parse --size: "
+msgstr "kan --size niet ontleden: "
+
+#: lib/cmdline.c
+#, c-format
+msgid "Adding -o %s as output failed"
+msgstr "Het toevoegen van -o %s als uitvoer is mislukt."
+
+#: lib/cmdline.c
+#, c-format
+msgid "No formatter (expect %s) specified in '%s'"
+msgstr "Geen formatter (verwacht %s) opgegeven in '%s'"
+
+#: lib/cmdline.c
+#, c-format
+msgid "Missing key (expect %s) in '%s'"
+msgstr "Ontbrekende sleutel (verwacht %s) in '%s'"
+
+#: lib/cmdline.c
+#, c-format
+msgid "Invalid formatter '%s'"
+msgstr "Ongeldige formatter '%s'"
+
+#: lib/cmdline.c
+#, c-format
+msgid "Invalid key '%s' for formatter '%s'"
+msgstr "Ongeldige sleutel '%s' voor formatter '%s'"
+
+#: lib/cmdline.c
+#, c-format
+msgid "Unable to parse factor \"%s\": error begins at %s"
+msgstr "Kan factor \"%s\" niet ontleden: fout begint bij %s"
+
+#: lib/cmdline.c
+#, c-format
+msgid "factor value is not in range [0-1]: %f"
+msgstr "factorwaarde valt niet binnen het bereik [0-1]: %f"
+
+#: lib/cmdline.c
+#, c-format
+msgid "Unable to parse offset \"%s\": "
+msgstr "Kan offset \"%s\" niet ontleden: "
+
+#: lib/cmdline.c
+#, c-format
+msgid "lint type '%s' not recognised"
+msgstr "Linttype '%s' niet herkend"
+
+#: lib/cmdline.c
+#, c-format
+msgid "Unable to parse time spec \"%s\""
+msgstr "Kan tijdspecificatie \"%s\" niet ontleden"
+
+#: lib/cmdline.c
+#, c-format
+msgid "-n %lu is newer than current time (%lu)."
+msgstr "-n %lu is nieuwer dan de huidige tijd (%lu)."
+
+#: lib/cmdline.c
+#, c-format
+msgid "No stamp file at `%s`, will create one after this run."
+msgstr "Geen uitgangsbestand op `%s`; er wordt er een aangemaakt na deze uitvoering."
+
+#: lib/cmdline.c
+#, c-format
+msgid "Only up to -%.*s or down to -%.*s flags allowed"
+msgstr "Alleen vlaggen tot aan -%.*s of tot -%.*s toegestaan"
+
+#: lib/cmdline.c lib/hash-utility.c
+#, c-format
+msgid "Unknown hash algorithm: '%s'"
+msgstr "Onbekend hash-algoritme: '%s'"
+
+#: lib/cmdline.c
+#, c-format
+msgid "Invalid size description \"%s\": "
+msgstr "Ongeldige groottebeschrijving \"%s\": "
+
+#: lib/cmdline.c
+msgid "Permissions string needs to be one or many of [rwx]"
+msgstr "De permissiereeks moet bestaan ​​uit een of meer van [rwx]"
+
+#: lib/cmdline.c
+#, c-format
+msgid "%s may only contain [%s], not `%c`"
+msgstr "%s mag alleen [%s] bevatten, niet `%c`"
+
+#: lib/cmdline.c
+msgid "Specifying both -o and -O is not allowed"
+msgstr "Het opgeven van zowel -o als -O is niet toegestaan."
+
+#: lib/cmdline.c
+msgid "Specify max traversal depth"
+msgstr "Geef de maximale doorlzoekdiepte op"
+
+#: lib/cmdline.c
+msgid "Select originals by given criteria"
+msgstr "Selecteer originelen op basis van de opgegeven criteria"
+
+#: lib/cmdline.c
+msgid "Sort rmlint output by given criteria"
+msgstr "Sorteer rmlint-uitvoer op basis van opgegeven criteria"
+
+#: lib/cmdline.c
+msgid "Specify lint types"
+msgstr "Specificeer linttypes"
+
+#: lib/cmdline.c
+msgid "Specify size limits"
+msgstr "Geef groottelimieten op"
+
+#: lib/cmdline.c
+msgid "Choose hash algorithm"
+msgstr "Kies hash-algoritme"
+
+#: lib/cmdline.c
+msgid "Add output (override default)"
+msgstr "Uitvoer toevoegen (standaardwaarde overschrijven)"
+
+#: lib/cmdline.c
+msgid "Add output (add to defaults)"
+msgstr "Uitvoer toevoegen (toevoegen aan standaardinstellingen)"
+
+#: lib/cmdline.c
+msgid "Newer than stamp file"
+msgstr "Nieuwer dan het stempelbestand"
+
+#: lib/cmdline.c
+msgid "Newer than timestamp"
+msgstr "Nieuwer dan tijdstempel"
+
+#: lib/cmdline.c
+msgid "Configure a formatter"
+msgstr "Configureer een formatter"
+
+#: lib/cmdline.c
+msgid "Enable xattr based caching"
+msgstr "Caching op basis van xattr inschakelen"
+
+#: lib/cmdline.c
+msgid "Re-output a json file"
+msgstr "Een JSON-bestand opnieuw uitvoeren"
+
+#: lib/cmdline.c
+msgid "Test for equality of PATHS"
+msgstr "Test op gelijkheid van paden"
+
+#: lib/cmdline.c
+msgid "Enable progressbar"
+msgstr "Voortgangsbalk inschakelen"
+
+#: lib/cmdline.c
+msgid "Be not that colorful"
+msgstr "Wees niet zo kleurrijk"
+
+#: lib/cmdline.c
+msgid "Find hidden files"
+msgstr "Vind verborgen bestanden"
+
+#: lib/cmdline.c
+msgid "Ignore symlinks"
+msgstr "Negeer symlinks"
+
+#: lib/cmdline.c
+msgid "Use more paranoid hashing"
+msgstr "Gebruik een meer paranoïde hashingmethode."
+
+#: lib/cmdline.c
+msgid "Do not cross mountpoints"
+msgstr "Niet over mountpoints heen zoeken"
+
+#: lib/cmdline.c
+msgid "Don't abort run if bad path passed to rmlint"
+msgstr "Breek de uitvoering niet af als er een ongeldig pad aan rmlint wordt doorgegeven."
+
+#: lib/cmdline.c
+msgid "Keep all tagged files"
+msgstr "Behoud alle gelabelde bestanden"
+
+#: lib/cmdline.c
+msgid "Keep all untagged files"
+msgstr "Behoud alle ongelabelde bestanden"
+
+#: lib/cmdline.c
+msgid "Must have twin in tagged dir"
+msgstr "Er moet een tweeling in de gelabelde map aanwezig zijn."
+
+#: lib/cmdline.c
+msgid "Must have twin in untagged dir"
+msgstr "Er moet een tweelingbestand in een map zonder label aanwezig zijn."
+
+#: lib/cmdline.c
+msgid "Only find twins with same basename"
+msgstr "Vind alleen dubbelen met dezelfde basisnaam"
+
+#: lib/cmdline.c
+msgid "Only find twins with same extension"
+msgstr "Vind alleen dubbelen met dezelfde extensie"
+
+#: lib/cmdline.c
+msgid "Only find twins with same basename minus extension"
+msgstr "Zoek alleen naar dubbele bestanden met dezelfde basisnaam (exclusief extensie)"
+
+#: lib/cmdline.c
+#, fuzzy
+msgid "Only find twins with same dirname"
+msgstr "Vind alleen dubbelen met dezelfde basisnaam"
+
+#: lib/cmdline.c
+#, fuzzy
+msgid "Only find twins with same relative path"
+msgstr "Vind alleen dubbelen met dezelfde basisnaam"
+
+#: lib/cmdline.c
+msgid "--match options are treated case-insensitively"
+msgstr ""
+
+#: lib/cmdline.c
+msgid "Find duplicate directories"
+msgstr "Vind dubbele mappen"
+
+#: lib/cmdline.c
+msgid "Only find directories with same file layout"
+msgstr "Zoek alleen naar mappen met dezelfde bestandsindeling"
+
+#: lib/cmdline.c
+msgid "Only use files with certain permissions"
+msgstr "Gebruik alleen bestanden met bepaalde rechten."
+
+#: lib/cmdline.c
+msgid "Ignore hardlink twins"
+msgstr "Negeer hardlink-dubbele"
+
+#: lib/cmdline.c
+msgid "Keep hardlink that are linked to any original"
+msgstr "Behoud hardlinks die naar een origineel verwijzen."
+
+#: lib/cmdline.c
+msgid "Find hidden files in duplicate folders only"
+msgstr "Zoek verborgen bestanden alleen in dubbele mappen"
+
+#: lib/cmdline.c
+msgid "Consider duplicates only equal when mtime differs at max. T seconds"
+msgstr ""
+"Beschouw duplicaten alleen als gelijk als het verschil in mtime maximaal T seconden bedraagt."
+
+#: lib/cmdline.c
+msgid "Read null-separated file list from stdin"
+msgstr "Lees een door null-tekens gescheiden bestandslijst van stdin"
+
+#: lib/cmdline.c
+msgid "Do create backups of previous result files"
+msgstr "Maak back-ups van eerdere resultaatbestanden."
+
+#: lib/cmdline.c
+msgid "Show the manpage"
+msgstr "Toon de man-pagina"
+
+#: lib/cmdline.c
+msgid "Show the version & features"
+msgstr "Toon de versie en functies"
+
+#: lib/cmdline.c
+msgid "If installed, start the optional gui with all following args"
+msgstr "Start, indien geïnstalleerd, de optionele GUI met alle volgende argumenten."
+
+#: lib/cmdline.c
+msgid "Work like sha1sum for all supported hash algorithms (see also --hash --help)"
+msgstr "Werkt zoals sha1sum voor alle ondersteunde hash-algoritmen (zie ook --hash --help)"
+
+#: lib/cmdline.c
+msgid "Report hardlinks as duplicates"
+msgstr "Rapporteer harde links als duplicaten"
+
+#: lib/cmdline.c
+msgid "Cannot set current working directory"
+msgstr "Kan de huidige werkmap niet instellen"
+
+#: lib/cmdline.c
+msgid "Cannot join commandline"
+msgstr "Kan de opdrachtregel niet samenvoegen"
+
+#: lib/cmdline.c
+msgid "[TARGET_DIR_OR_FILES …] [//] [TAGGED_TARGET_DIR_OR_FILES …] [-]"
+msgstr "[DOELMAP_OF_BESTANDEN …] [//] [GELABELDE_DOELMAP_OF_BESTANDEN …] [-]"
+
+#: lib/cmdline.c
+msgid ""
+"rmlint finds space waste and other broken things on your filesystem and offers to remove it.\n"
+"It is especially good at finding duplicates and offers a big variety of options to handle them."
+msgstr ""
+"rmlint vindt onnodige ruimte en andere beschadigde bestanden op je bestandssysteem enbiedt aan om "
+"ze te verwijderen.\n"
+"Het is vooral goed in het vinden van duplicaten en biedt een grote verscheidenheid aanopties om "
+"ze te verwerken."
+
+#: lib/cmdline.c
+msgid ""
+"Only the most important options and options that alter the defaults are shown above.\n"
+"See the manpage (man 1 rmlint or rmlint --show-man) for far more detailed usage information,\n"
+"or http://rmlint.rtfd.org/en/latest/rmlint.1.html for the online manpage.\n"
+"Complementary tutorials can be found at: http://rmlint.rtfd.org"
+msgstr ""
+"Alleen de belangrijkste opties en opties die de standaardinstellingen wijzigen, worden hierboven "
+"weergegeven.\n"
+"Raadpleeg de man-pagina (man 1 rmlint of rmlint --show-man) voor veel meer gedetailleerde "
+"gebruiksinformatie,\n"
+"of http://rmlint.rtfd.org/en/latest/rmlint.1.html voor de online man-pagina.\n"
+"Aanvullende handleidingen zijn te vinden op: http://rmlint.rtfd.org"
+
+#: lib/cmdline.c
+msgid "Not all given paths are valid. Aborting"
+msgstr "Niet alle opgegeven paden zijn geldig. Afbreken."
+
+#: lib/cmdline.c
+msgid "--honour-dir-layout (-j) makes no sense without --merge-directories (-D)"
+msgstr "--honour-dir-layout (-j) heeft geen zin zonder --merge-directories (-D)"
+
+#: lib/cmdline.c
+msgid "Note that not having duplicate directories enabled as lint type (e.g via -T df)"
+msgstr "Let op: dubbele mappen zijn niet ingeschakeld als lint-type (bijv. via -T df)"
+
+#: lib/cmdline.c
+msgid "will also disable --merge-directories and trigger this warning."
+msgstr "zal ook --merge-directories uitschakelen en deze waarschuwing tonen."
+
+#: lib/cmdline.c
+msgid "can't specify both --keep-all-tagged and --keep-all-untagged"
+msgstr "Kan niet zowel --keep-all-tagged als --keep-all-untagged opgeven."
+
+#: lib/cmdline.c
+msgid "-q (--clamp-low) should be lower than -Q (--clamp-top)"
+msgstr "-q (--clamp-low) moet lager zijn dan -Q (--clamp-top)"
+
+#: lib/cmdline.c
+msgid ""
+"-k and -M should not be specified at the same time (see also: https://github.com/sahib/rmlint/"
+"issues/244)"
+msgstr ""
+"-k en -M mogen niet tegelijkertijd worden opgegeven (zie ook: https://github.com/sahib/rmlint/"
+"issues/244)"
+
+#: lib/cmdline.c
+msgid ""
+"-K and -m should not be specified at the same time (see also: https://github.com/sahib/rmlint/"
+"issues/244)"
+msgstr ""
+"-K en -m mogen niet tegelijkertijd worden opgegeven (zie ook: https://github.com/sahib/rmlint/"
+"issues/244)"
+
+#: lib/cmdline.c
+msgid "Using -D together with -c sh:clone is currently not possible. Sorry."
+msgstr "Het gebruik van -D in combinatie met -c sh:clone is momenteel niet mogelijk. Sorry."
+
+#: lib/cmdline.c
+msgid "Either do not use -D, or attempt to run again with -Dj."
+msgstr "Gebruik ofwel geen -D, of probeer het opnieuw uit te voeren met -Dj."
+
+#: lib/cmdline.c
+msgid "Failed to complete setup for merging directories"
+msgstr "Het instellen van het samenvoegen van mappen is mislukt."
+
+#: lib/cmdline.c
+msgid "Not enough files for --equal (need at least two to compare)"
+msgstr "Onvoldoende bestanden voor --equal (er zijn er minstens twee nodig om te vergelijken)"
+
+#: lib/cfg.c lib/hash-utility.c
+#, c-format
+msgid "Can't open directory or file \"%s\": %s"
+msgstr "Kan map of bestand \"%s\" niet openen: %s"
+
+#: lib/cfg.c
+#, c-format
+msgid "Can't get real path for directory or file \"%s\": %s"
+msgstr "Kan het werkelijke pad voor map of bestand \"%s\" niet verkrijgen: %s"
+
+#: lib/hash-utility.c
+msgid "Digest type [BLAKE2B]"
+msgstr "Hash-type [BLAKE2B]"
+
+#: lib/hash-utility.c
+msgid "Number of hashing threads [8]"
+msgstr "Aantal hashing-threads [8]"
+
+#: lib/hash-utility.c
+msgid "Megabytes read buffer [256 MB]"
+msgstr "Leesbuffer in megabytes [256 MB]"
+
+#: lib/hash-utility.c
+msgid "bytes to hash at a time [4096]"
+msgstr "aantal bytes per keer om te hashen [4096]"
+
+#: lib/hash-utility.c
+msgid "Print hashes in order completed, not in order entered (reduces memory usage)"
+msgstr ""
+"Druk hashes af in de volgorde van voltooiing, niet in de volgorde van invoer (vermindert "
+"geheugengebruik)"
+
+#: lib/hash-utility.c
+msgid "Space-separated list of files"
+msgstr "Spaties gescheiden lijst van bestanden"
+
+#: lib/hash-utility.c
+msgid "Hash a list of files"
+msgstr "Een lijst met bestanden hashen"
+
+#: lib/hash-utility.c
+#, c-format
+msgid ""
+"Multi-threaded file digest (hash) calculator.\n"
+"\n"
+"  Available digest types:\n"
+"  Cryptographic:\n"
+"    %s\n"
+"\n"
+"  Non-cryptographic:\n"
+"    %s\n"
+"\n"
+"  Supported, but not useful:\n"
+"    %s\n"
+msgstr ""
+"Multi-threaded berekening van bestands-digests (hashes).\n"
+"\n"
+"  Beschikbare digest-types:\n"
+"  Cryptografisch:\n"
+"    %s\n"
+"\n"
+"  Niet-cryptografisch:\n"
+"    %s\n"
+"\n"
+"  Ondersteund, maar niet nuttig:\n"
+"    %s\n"
+
+#: lib/hash-utility.c
+msgid "No valid paths given"
+msgstr "Geen geldige paden opgegeven"
+
+#: lib/hash-utility.c
+#, c-format
+msgid "Directories are not supported: %s"
+msgstr "Mappen worden niet ondersteund: %s"
+
+#: lib/hash-utility.c
+#, c-format
+msgid "%s: Unknown file type"
+msgstr "%s: Onbekend bestandstype"
+
+#: lib/utilities.c
+msgid "Input size is empty"
+msgstr "De invoergrootte is leeg"
+
+#: lib/utilities.c
+msgid "Size is empty"
+msgstr "De grootte is leeg"
+
+#: lib/utilities.c
+msgid "Negative sizes are no good idea"
+msgstr "Negatieve afmetingen zijn geen goed idee"
+
+#: lib/utilities.c
+msgid "Given size_format specifier not found"
+msgstr "Opgegeven size_format-specificatie niet gevonden"
+
+#: lib/utilities.c
+msgid "Failed to parse size fraction"
+msgstr "Groottefractie kon niet worden gelezen"
+
+#: lib/utilities.c
+msgid "Fraction is too big for uint64"
+msgstr "Breuk is te groot voor uint64"
+
+#: lib/utilities.c
+msgid "This does not look like a number"
+msgstr "Dit ziet er niet uit als een getal"
+
+#: lib/utilities.c
+msgid "Size is too big for uint64"
+msgstr "De grootte is te groot voor uint64"
+
+#: lib/utilities.c
+msgid "Size factor would overflow size (max. 2**64 allowed)"
+msgstr "De groottefactor zou de grootte doen overlopen (max. 2**64 toegestaan)"
+
+#: lib/utilities.c
+#, c-format
+msgid "cannot open file '%s' for nonstripped test: "
+msgstr "kan bestand '%s' niet openen voor niet-gestripte test: "
+
+#: lib/utilities.c
+msgid "ELF Library is out of date!"
+msgstr "De ELF-bibliotheek is verouderd!"
+
+#: lib/utilities.c
+#, c-format
+msgid "`%s` mount detected at %s (#%u); Ignoring all files in it.\n"
+msgstr "`%s`-mount gedetecteerd op %s (#%u); alle bestanden daarin worden genegeerd.\n"
+
+#: lib/utilities.c
+#, c-format
+msgid "rm_offset_get_fiemap: fd=%d, n_extents=%d, file_offset=%d"
+msgstr "rm_offset_get_fiemap: fd=%d, n_extents=%d, file_offset=%d"
+
+#: lib/utilities.c
+#, c-format
+msgid "rm_offset_get_fiemap: got no fiemap for %d"
+msgstr "rm_offset_get_fiemap: geen fiemap verkregen voor %d"
+
+#: lib/utilities.c
+msgid "rm_offset_get_fiemap: got no extents for %d at offset %"
+msgstr "rm_offset_get_fiemap: geen extents gevonden voor %d op offset %"
+
+#: lib/utilities.c
+msgid "Reflink"
+msgstr "Verwijslink"
+
+#: lib/utilities.c
+msgid "Not linked"
+msgstr "Niet gekoppeld"
+
+#: lib/utilities.c
+msgid "Not a regular file"
+msgstr "Geen regulier bestand"
+
+#: lib/utilities.c
+msgid "File sizes differ"
+msgstr "Bestandsgrootten zijn verschillend"
+
+#: lib/utilities.c
+msgid "Maybe a reflink (fiemap data could not be read)"
+msgstr "Misschien een reflink (fiemap-gegevens konden niet worden gelezen)"
+
+#: lib/utilities.c
+msgid "Same file and path"
+msgstr "Hetzelfde bestand en pad"
+
+#: lib/utilities.c
+msgid "Same file but with different path"
+msgstr "Hetzelfde bestand, maar met een ander pad"
+
+#: lib/utilities.c
+msgid "Hardlink"
+msgstr "Hardlink"
+
+#: lib/utilities.c
+msgid "Encountered a symlink"
+msgstr "Symlink aangetroffen"
+
+#: lib/utilities.c
+msgid "Files are on different devices"
+msgstr "Bestanden staan ​​op verschillende apparaten."
+
+#: lib/utilities.c
+msgid "An error occurred during checking"
+msgstr "Er is een fout opgetreden tijdens de controle."
+
+#: lib/utilities.c
+msgid "Files have inline extents"
+msgstr "Bestanden bevatten inline-extents."
+
+#: gui/shredder/views/settings.py
+msgid "Configure how duplicates are searched"
+msgstr "Configureer hoe er naar duplicaten wordt gezocht"
+
+#: gui/shredder/views/settings.py
+msgid "Reset to defaults"
+msgstr "Terugzetten naar standaardwaarden"
+
+#: gui/shredder/__init__.py
+msgid "Find & clean duplicate files"
+msgstr "Dubbele bestanden zoeken en opschonen"
+
+#: gui/shredder/cmdline.py
+msgid "A GUI frontend to rmlint"
+msgstr "Een GUI-frontend voor rmlint"
+
+#: gui/shredder/window.py
+msgid "Settings"
+msgstr "Instellingen"
+
+#: gui/shredder/window.py
+msgid "About"
+msgstr "Over"
+
+#: gui/shredder/window.py
+msgid "Search"
+msgstr "Zoeken"
+
+#: gui/shredder/window.py
+msgid "Quit"
+msgstr "Stoppen"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Report duplicate hardlinks"
+msgstr "Rapporteer dubbele harde links"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Duplicate files might have hardlinked twins"
+msgstr "Dubbele bestanden kunnen 'hard-linked' tweelingen hebben."
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Symbolic link handling"
+msgstr "Omgaan met symbolische koppelingen"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "What to do with symbolic links?"
+msgstr "Wat te doen met symbolische links?"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "How to tackle found duplicates"
+msgstr "Hoe om te gaan met gevonden duplicaten"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Define the handler that will tackle the wasted space"
+msgstr "Definieer de handler die de verspilde ruimte aanpakt."
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Find hidden files and directories"
+msgstr "Verborgen bestanden en mappen zoeken"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Hidden files and directories begin with a ».«"
+msgstr "Verborgen bestanden en mappen beginnen met een ».«."
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "[2] Size limits"
+msgstr "[2] Groottelimieten"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "What size the duplicate files may have"
+msgstr "Welke grootte mogen de dubbele bestanden hebben"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Traversal depth"
+msgstr "Zoekdiepte"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "»1« is only the current directory's files"
+msgstr "»1« betreft alleen de bestanden in de huidige map"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Cross mountpoints"
+msgstr "Kruislinge mounts"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Traverse over mount borders?"
+msgstr "Mount grenzen oversteken?"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Path limitations"
+msgstr "Padbeperkingen"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Only find twins with a certain limitation"
+msgstr "Zoek alleen dubbelen met een bepaalde restrictie"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Hash algorithm"
+msgstr "Hash-algoritme"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Which hash algorithm to use"
+msgstr "Welk hash-algoritme te gebruiken"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Keep all tagged"
+msgstr "Behoud alle gelabelde"
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Keep all files that lie in tagged directories"
+msgstr "Behoud alle bestanden die zich in gelabelde mappen bevinden."
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Must match tagged"
+msgstr "Moet overeenkomen met de labels."
+
+#: gui/schemas/io.github.sahib.rmlint.Shredder.gschema.xml
+msgid "Duplicates must have twins in tagged directories"
+msgstr "Dubbele moeten een tegenhanger hebben in mappen met labels."
