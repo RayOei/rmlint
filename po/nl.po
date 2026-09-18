@@ -221,7 +221,7 @@ msgstr "Dit komt overeen met %s%s%s duplicaten die verwijderd zouden kunnen word
 #: lib/formats/summary.c
 #, c-format
 msgid "other suspicious item(s) found, which may vary in size.\n"
-msgstr "andere verdachte bestanden aangetroffen, die in grootte kunnen variëren."
+msgstr "andere verdachte bestanden aangetroffen, die in grootte kunnen variëren.\n"
 
 #: lib/formats/summary.c
 #, c-format
@@ -231,7 +231,7 @@ msgstr "Deze run was een herhaling van een eerdere run. Er heeft geen I/O plaats
 #: lib/formats/summary.c
 #, c-format
 msgid "Scanning took in total %s%s%s.\n"
-msgstr "Het scannen duurde in totaal %s%s%s."
+msgstr "Het scannen duurde in totaal %s%s%s.\n"
 
 #: lib/formats/summary.c
 #, c-format
@@ -518,21 +518,22 @@ msgstr "Kan pad %s niet verwerken"
 #: lib/cmdline.c
 #, c-format
 msgid "compiled with:"
-msgstr "samengesteld met:"
+msgstr "gecompileerd met:"
 
 #: lib/cmdline.c
 #, fuzzy
 msgid ""
 "\n"
 "\n"
-"rmlint was written by Christopher <sahib> Pahl and Daniel <SeeSpotRun> Thomas.\n"
-"The code at https://github.com/sahib/rmlint is licensed under the terms of the GPLv3.\n"
+"rmlint was written by Christopher <sahib> Pahl, Daniel <SeeSpotRun> Thomas,\n"
+"<Cebtenzzre> and Vassili <vassilit> Tchersky.\n"
+"The code at %s is licensed under the terms of the GPLv3.\n"
 msgstr ""
 "\n"
 "\n"
 "rmlint is geschreven door Christopher <sahib> Pahl, Daniel <SeeSpotRun> Thomas, Cebtenzzre en "
 "Vassili Tchersky <vassilit>.\n"
-"De code op https://github.com/sahib/rmlint valt onder de licentievoorwaarden van de GPLv3.\n"
+"De code op %s valt onder de licentievoorwaarden van de GPLv3.\n"
 
 #: lib/cmdline.c
 msgid "You seem to have no manpage for rmlint."
